@@ -1,0 +1,54 @@
+{
+  "id": "com.athom.solarfrontier",
+  "version": "1.0.0",
+  "compatibility": ">=1.5.0",
+  "sdk": 2,
+  "name": {
+    "en": "Solarfrontier"
+  },
+  "description": {
+    "en": "Adds support for solar panel solar frontier"
+  },
+  "category": [
+    "energy"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Martin Malmström",
+    "email": "martin.malmstrom11@gmail.com"
+  },
+  "drivers": [
+    {
+      "id": "solarfrontier",
+      "name": {
+        "en": "Solarfrontier"
+      },
+      "pair": [
+        {
+          "id": "pair"
+        }
+      ],
+      "class": "solarpanel",
+      "capabilities": [
+        "measure_power"
+      ],
+      "settings": [
+        {
+          "id": "ip",
+          "type": "text",
+          "label": {
+            "en": "Solar Frontier IP address"
+          }
+        }
+      ],
+      "images": {
+        "large": "/drivers/solarfrontier/assets/images/large.png",
+        "small": "/drivers/solarfrontier/assets/images/small.png"
+      }
+    }
+  ]
+}
